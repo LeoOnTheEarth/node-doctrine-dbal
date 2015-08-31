@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leoontheearth/doctrine-dbal.git"
+    "url": "git+https://github.com/leoontheearth/node-doctrine-dbal.git"
   },
   "maintainers": [
     {
