@@ -1,7 +1,7 @@
 module.exports = AbstractMySQLPlatformTestCase;
 
 var assert = require('chai').assert;
-var Connection = require('../../lib/Connection.js');
+var Connection = require('../../lib/Connections/Connection.js');
 var Table = require('../../lib/Schema/Table.js');
 var TableDiff = require('../../lib/Schema/TableDiff.js');
 var Index = require('../../lib/Schema/Index.js');
