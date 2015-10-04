@@ -1,6 +1,6 @@
 {
   "name": "doctrine-dbal",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The Doctrine DBAL implemented with NodeJS",
   "license": "MIT",
   "repository": {
