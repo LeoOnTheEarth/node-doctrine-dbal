@@ -122,8 +122,8 @@ p.testGeneratesTransactionsCommands = function() {
 p.testGeneratesDDLSnippets = function() {
   it('should be the same SQL declaration', function() {
     assert.equal(this._platform.getListDatabasesSQL(), 'SHOW DATABASES');
-    assert.equal(this._platform.getCreateDatabaseSQL('foobar'), 'CREATE DATABASE foobar');
-    assert.equal(this._platform.getDropDatabaseSQL('foobar'), 'DROP DATABASE foobar');
+    assert.equal(this._platform.getCreateDatabaseSQL('foobar'), 'CREATE DATABASE `foobar`');
+    assert.equal(this._platform.getDropDatabaseSQL('foobar'), 'DROP DATABASE `foobar`');
     assert.equal(this._platform.getDropTableSQL('foobar'), 'DROP TABLE foobar');
   }.bind(this));
 };
